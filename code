@@ -1,0 +1,24 @@
+class inventory:
+  def __init__(self, key, sword, potion, points):
+    self.key = key
+    self.sword = sword
+    self.potion = potion
+    if key == "boss key":
+      points += 100
+    if sword == "master sword":
+      points += 5000
+
+
+    def potion(self, colour, power):
+      self.colour = colour  
+      self.power = power
+      if colour == "green":
+        power == "grass"
+      if colour == "blue":
+        power == "water"
+
+    def coins(self, total):
+      self.total = total
+
+
+
